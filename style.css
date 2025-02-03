@@ -1,8 +1,125 @@
-body{
-    background-color: black;
-    color: aliceblue;
+
+*{
+    margin: 0;
+    padding: 0%;
 }
+
+#fontcss{
+    
+    font-family: "Trirong", serif;
+    font-variant: small-caps;
+    /* font-size: 2em; */
+    font-style: italic;
+    font-weight: lighter;
+    /* letter-spacing: 5px; */
+    /* word-spacing: 4px; */
+    color: #0e0e0e;
+    /* text-indent: 100px; */
+    text-align: center; 
+    /* text-transform: lowercase;    */
+
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hsl(65, 87%, 47%);
+}
+a:active{
+    color: blue;
+}
+#link{
+    text-align: center;
+    font-size: small;
+    color: #171515;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+
+
+
 h2{
-    background-color: bisque;
-    color: black;
+    background-color: rgb(237, 206, 167);
+    color: #1532ed;
 }
+
+
+.photos{
+    color: #cedf10; 
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #0e0e0e;
+  
+
+}
+.logo{
+    width: 30%;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ead305;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    height: 50px;
+    background-color: red;
+    float: right;
+}
+ul{
+    list-style: none;
+    text-align: right;
+}
+li{
+    display: inline;
+    border: 1px solid #ec0f0f;
+    padding: 10px 50px;
+    background-color: #ffffff;
+ 
+}
+
+
+.image
+{   
+    width: 100%;
+    height: 200vh;
+    background-color: #171616;
+    background-image:url(/1620813450_183704622_200813638537537_7733403386095494137_n.jpg) ;
+     background-repeat:no-repeat ;
+     background-size:100% 100% ;
+     background-attachment: fixed;
+     /* border-width: 5px;
+     border-color: rgb(27, 26, 26);
+     border-style: solid; */
+     border: 10px solid black;
+     border-radius: 0px;
+}
+
+p{
+    width: 1500px;
+    height: 50px;
+    border-color: #c4143d;
+    overflow: auto;
+    background-color: hsl(0, 9%, 96%);
+    color: #ffffff;
+}
+.image1
+{
+    width: 100%;
+    height: 200vh;
+    background-color: #d1c6c6;
+    background-image:url(/mahira-sharma-8.jpg) ;
+     background-repeat:no-repeat ;
+     background-size:100% 100% ;
+     background-attachment: fixed;
+     border: 10px solid black;
+     border-radius: 50px;
+}
+
+
